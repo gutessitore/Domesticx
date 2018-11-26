@@ -1,0 +1,28 @@
+/*Nome do aplicativo*/
+.Nome_App{
+	display: flex;
+	justify-content: center;
+	padding: 1rem;
+	background-color: tomato;
+}
+/*Caixa de login*/
+.caixa_de_login{
+	display: flex;
+	justify-content: center;
+	padding-top: 1rem;
+	background-color: olive;
+
+/*link para cadastro*/
+}
+.Cadastre-se{
+	display: flex;
+	justify-content: center;
+	background-color: olive;
+
+}
+/*Tela principal do App*/
+.Tela_App{
+	display: flex;
+	justify-content: center;
+	padding: 1rem;
+	background-color: darkcyan;
