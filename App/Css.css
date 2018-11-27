@@ -46,7 +46,7 @@
 
 /*muda o tamanho do form*/
 .form {
-   width: 20rem;
+   width: 35rem;
    height: 3rem;
    margin: auto;
    position: relative;
@@ -93,4 +93,17 @@
     border-radius: 50%; 
     background: #4CAF50;
     cursor: pointer;
+}
+
+.Perfil{
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 3rem;
+	background-color: #7645bf;	
+	border: solid;
+	border-color: #7645bf;
+}
+
+.inverted {
+	filter: invert(100%);
 }
