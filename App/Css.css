@@ -129,3 +129,21 @@
 	height: 18rem;
 	background-color: #7645bf;
 }
+
+input[type="checkbox"] {
+    content: url(img/like.png);
+    display: flex;
+    width: 10%;
+    height: 10%;
+    padding-top: 3rem;
+    justify-content: flex-end;
+}
+input[type="checkbox"]:checked {
+    content: url(img/like_roxo.png);
+}
+.native-hidden {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
