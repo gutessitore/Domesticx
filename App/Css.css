@@ -12,6 +12,8 @@
 	justify-content: center;
 	padding-top: 5rem;
 	background-color: #7645bf;
+	border: solid;
+	border-color: #7645bf;
 
 /*link para cadastro*/
 }
@@ -20,6 +22,8 @@
 	justify-content: center;
 	background-color: #7645bf;
 	color: white;
+	border: solid;
+	border-color: #7645bf;
 
 }
 /*Tela principal do App*/
@@ -27,7 +31,8 @@
 	display: flex;
 	justify-content: center;
 	padding: 1rem;
-	background-color: darkcyan;
+	background-color: #7645bf;
+	color: white;
 
 }
 
@@ -46,3 +51,21 @@
    margin: auto;
    position: relative;
  }
+
+ /*muda o tamanho do form*/
+.form_cadastro {
+   width: 35rem;
+   height: 3rem;
+   margin: auto;
+   position: relative;
+ }
+
+ /*Caixa de cadastro*/
+.caixa_de_cadastro{
+	display: flex;
+	justify-content: center;
+	padding-top: 5rem;
+	background-color: white;
+	border: solid;
+	border-color: white;
+	color: #7645bf;
