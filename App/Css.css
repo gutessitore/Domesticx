@@ -3,21 +3,23 @@
 	display: flex;
 	justify-content: center;
 	padding-top: 50%;
-	background-color: tomato;
+	background-color: white;
+	color: #b163bf;
 }
 /*Caixa de login*/
 .caixa_de_login{
 	display: flex;
 	justify-content: center;
 	padding-top: 5rem;
-	background-color: olive;
+	background-color: #7645bf;
 
 /*link para cadastro*/
 }
 .Cadastre-se{
 	display: flex;
 	justify-content: center;
-	background-color: olive;
+	background-color: #7645bf;
+	color: white;
 
 }
 /*Tela principal do App*/
