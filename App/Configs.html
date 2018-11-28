@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang='ptbr'>
+<head>
+	<title>Domesticx</title>
+	<link href='reset.css' rel="stylesheet">
+	<link href='Css.css' rel="stylesheet">
+	<meta charset="utf-8" name="viewport">
+
+<!-- \|/codigo do w3school\|/ -->
+
+<style>
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 5rem;
+  height: 3rem;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 1rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 2rem;
+  width: 2rem;
+  left: 0.5rem;
+  bottom: 0.5rem;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(2rem);
+  -ms-transform: translateX(2rem);
+  transform: translateX(2rem);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 3rem;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.label {
+	width: 7rem ;
+	height: 5rem;
+
+}
+</style>
+</head>
+<body>
+	<header style="font-size:10rem" class="Tela_App">
+		<a href="Menu.html"><img src="img/flecha.png" width="140%" height="75%"></a>
+			<h1 style="padding-left: 7rem;padding-right: 7rem">Config</h1>
+	</header>
+
+
+	<div class="caixa_de_cadastro" style="font-size:4rem">
+		Notificações &nbsp
+			<label class="switch">
+			  <input type="checkbox">
+			  <span class="slider round"></span>
+			</label>
+		
+	</div>
+	<div class="caixa_de_cadastro" style="font-size:4rem">
+		<a href="Tela_inicial.html" style=" ">Sair</a>
+	</div>
+
+</body>
+</html>
